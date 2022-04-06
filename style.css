@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("Image/background.jpg");
+  font-family: "Roboto", sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  background-color: white;
+  width: 30vw;
+  border-radius: 5px 10px;
+  
+}
+.heading {
+  text-align: center;
+}
+.next {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.next img {
+  width: 17px;
+  height: 17px;
+  margin-left: 5px;
+}
+
+.visa {
+  border-top: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  gap: 1rem;
+  border-top: 1px solid grey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: gray;
+}
+.master {
+  border-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 1rem;
+  border-top: 1px solid grey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.master .options {
+  width: 200px;
+  display: flex;
+}
+
+.options p {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.visa img {
+  width: 2rem;
+  height: 2rem;
+}
+.master img {
+  width: 2rem;
+  height: 2rem;
+}
+.circle {
+  background-color:grey;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.circle1{
+  background:lavender;
+}
+.all-circle {
+  margin: 10px 0;
+  display:flex;
+  justify-content: center;
+}
+img .check {
+align-content: flex-end;
+}
+
